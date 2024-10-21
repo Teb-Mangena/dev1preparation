@@ -1,0 +1,136 @@
+body{
+  background-color: gainsboro;
+}
+
+.home-icon{
+  padding-left: 5%;
+  padding-top: 10px;
+  height: 23px;
+}
+
+.test-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  padding-bottom: 20px;
+}
+
+.big-ans-container{
+  display: block;
+}
+
+.tests{
+  padding: 12px;
+  margin-top: 40px;
+  border: 1.5px black solid;
+  border-radius: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(61, 87, 87)
+}
+
+.insert-answer{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.write-answer-section{
+  flex: 1;
+}
+
+.write-answer{
+  width: 100%;
+  height: 95%;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(212, 222, 222);
+}
+
+.compare-button{
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.remove-question{
+  display: flex;
+  align-content: end;
+  justify-content: end;
+  align-items: end;
+}
+
+.remove-image{
+  height: 23px;
+  border-radius: 50px;
+}
+
+.answer-comparings{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  column-gap: 4px;
+  margin-top: 10px;
+  background-color: gray;
+  border: 1px gray solid;
+  border-radius: 2px;
+}
+
+.ur-answers{
+  border-right: 2px gray solid;
+}
+
+.written-answer,.memo-solution{
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.memo-answers{
+  background-color: gainsboro;
+}
+
+.header{
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.solution-ans{
+  color: rgb(90, 137, 42);
+}
+
+.close-comparison{
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-link{
+  text-align: center;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.video-headers{
+  display: inline;
+  font-weight: 600;
+  padding-left: 6%;
+}
+
+.video{
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  border: 1.7px black solid;
+  border-radius: 15px;
+}
+
+.video-name{
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}

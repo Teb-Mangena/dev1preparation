@@ -1,0 +1,12 @@
+.foot-bar{
+  background-color: gray;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.bottom-left,
+.bottom-right{
+  text-align: center;
+}

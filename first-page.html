@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general-files/general.css">
+  <link rel="stylesheet" href="styles/navigation-bar/first-page-bar.css">
+  <link rel="stylesheet" href="styles/body-files/first-page-body.css">
+  <link rel="stylesheet" href="styles/footer/foot-bar.css">
+  <link rel="stylesheet" href="styles/sidebar/sidebar.css">
+  <title>DES1 | Multiple Choice</title>
+</head>
+<body>
+  <nav class="navigation-bar">
+    <div class="page-topic">Multiple choice</div>
+    <div class="page-controllers">
+      <div class="left-section">
+          <img src="images/icons/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu js-hamburger-menu">
+      </div>
+      <div class="middle-section">
+        <div class="qz-page-site" onclick="
+          location.href='play-quiz.html'
+          ">
+          play quiz
+        </div>
+        <div class="mc-page-site" onclick="
+        location.href='first-page.html'
+        ">
+          multiple choice
+        </div>
+        <div class="ps-page-site" onclick="
+        location.href='pseudo.html'
+        ">
+          pseudo & trace tables
+        </div>
+        <div class="tt-page-site" onclick="
+        location.href='past-papers.html'
+        ">
+          past papers
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="info-site" onclick="location.href='test.html'">
+          <abbr title="Watch Videos">
+            <span class="yt-videos">Videos</span>
+              <img src="images/icons/wirte.png" alt="notes" class="notes-icon">
+          </abbr>
+         </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="side-view-big-container"></div>
+
+  <div class="body-container js-body-container">
+    <!--every body-container is separated by the content container-->
+  </div>
+
+  
+  <script type="module" src="scripts/multiple-choice.js"></script>
+</body>
+</html>

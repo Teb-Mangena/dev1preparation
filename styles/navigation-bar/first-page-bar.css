@@ -1,0 +1,102 @@
+/*combined navigation bar*/
+
+.navigation-bar{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  background-color: rgb(61, 73, 73);
+  border-bottom: 2px solid rgb(17, 3, 56);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/*top navigation bar*/
+
+.page-topic{
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+
+/*bottom navigation bar controllers*/
+
+.page-controllers{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/*left section only*/
+
+.left-section{
+  padding-left: 13px;
+  padding-right: 15px;
+  align-content: center;
+}
+
+.hamburger-menu{
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.65s ease;
+}
+
+.hamburger-menu:active {
+  transform: rotate(180deg);
+}
+
+/*middle section only*/
+
+.middle-section{
+  flex: 4;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 4px;
+}
+
+.qz-page-site,
+.mc-page-site,
+.ps-page-site,
+.tt-page-site
+{
+  color: black;
+  font-weight: 600;
+  padding: 8px;
+  border: 2px rgb(17, 3, 56) solid;
+  border-radius: 50px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.qz-page-site:hover,
+.mc-page-site:hover,
+.ps-page-site:hover,
+.tt-page-site:hover{
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+  border: 2px rgb(117, 9, 9) solid;
+  color: chocolate;
+  background-color: rgb(71, 66, 66);
+}
+
+/*right section only*/
+
+.right-section{
+  flex: 0.5;
+  text-align: center;
+  align-content: center;
+}
+
+.info-site{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notes-icon{
+  height: 24px;
+}

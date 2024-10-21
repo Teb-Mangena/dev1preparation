@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/body-files/play-quiz.css">
+  <link rel="stylesheet" href="styles/navigation-bar/first-page-bar.css">
+  <link rel="stylesheet" href="styles/sidebar/sidebar.css">
+  <link rel="stylesheet" href="styles/general-files/general.css">
+  <link rel="stylesheet" href="styles/footer/foot-bar.css">
+  <title>DES1 | Quiz Game</title>
+</head>
+<body>
+
+  <nav class="navigation-bar">
+    <div class="page-topic">Get Past Papers</div>
+    <div class="page-controllers">
+      <div class="left-section">
+          <img src="images/icons/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu js-hamburger-menu">
+      </div>
+      <div class="middle-section">
+        <div class="qz-page-site" onclick="
+          location.href='play-quiz.html'
+          ">
+          play quiz
+        </div>
+        <div class="mc-page-site" onclick="
+        location.href='first-page.html'
+        ">
+          multiple choice
+        </div>
+        <div class="ps-page-site" onclick="
+        location.href='pseudo.html'
+        ">
+          pseudo & trace tables
+        </div>
+        <div class="tt-page-site" onclick="
+        location.href='past-papers.html'
+        ">
+          past papers
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="info-site" onclick="location.href='test.html'">
+          <abbr title="Watch Videos">
+            <span class="yt-videos">Videos</span>
+              <img src="images/icons/wirte.png" alt="notes" class="notes-icon">
+          </abbr>
+         </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="side-view-big-container"></div>
+  
+  <div class="body-container">
+    <div class="content-container">
+      <div class="question-number">
+        Question 1
+      </div>
+      <div class="question-type">
+        question type
+      </div>
+      <div class="answer-container">
+        <buttton class="answers">
+          answer 1
+        </buttton>
+        <buttton class="answers">
+          answer 2
+        </buttton>
+        <buttton class="answers">
+          answer 3
+        </buttton>
+        <buttton class="answers">
+          answer 4
+        </buttton>
+      </div>
+      <div class="next-questions">
+        <button class="next">
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/quiz.js"></script>
+
+</body>
+</html>

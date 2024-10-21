@@ -1,0 +1,70 @@
+.sidebar-container{
+  background-color: rgb(61, 73, 73);
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  right: 4%;
+  left: 0%;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(165px,1fr));
+  row-gap: 15px;
+  column-gap: 5px;
+  border-right: 3px solid rgb(17, 3, 56);
+  box-shadow: 10px 10px 10px;
+}
+
+.information-containers{
+  background-color: rgb(50, 43, 43);
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  border: 2px rgb(71, 70, 70) solid;
+  overflow: hidden;
+}
+
+.information-containers:hover{
+  border: 2px solid rgb(5, 5, 68);
+  color: rgb(0, 0, 0) ;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+}
+
+.home-page{
+  background-image: url(../../images/theme-images/potsdam.jpeg);
+  object-fit: cover;
+}
+
+.quiz{
+  background-image: url(../../images/theme-images/games.jpeg);
+  color: rgb(28, 103, 83);
+}
+
+.past-papers{
+  background-image: url(../../images/theme-images/past-papers.jpeg);
+  color: black;
+  object-fit: cover;
+}
+
+.faq{
+  background-image: url(../../images/theme-images/meetings.jpeg);
+  color: rgb(6, 162, 84);
+  object-fit: cover;
+}
+
+.multiple-choice{
+  background-image: url(../../images/theme-images/multiple-choice.jpeg);
+  color: blue;
+  object-fit: cover;
+}
+
+.about{
+  background-image: url(../../images/theme-images/puzzle-image.jpeg);
+  color: rgb(31, 139, 211);
+  object-fit: cover;
+}
